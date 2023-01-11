@@ -1,1 +1,1 @@
-# afstuderen-static
+[Link naar live prototype](https://mbergevoet.github.io/afstuderen-static/home.html)
