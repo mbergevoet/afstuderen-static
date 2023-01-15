@@ -21,7 +21,7 @@ pannellum.viewer('panorama', {
             "yaw": -252.1,
             "hfov": 110,
             "type": "equirectangular",
-            "panorama": "../static/images/360-River-Four.jpg",
+            "panorama": "../images/360-River-Four.jpg",
             "hotSpots": [
                 {
                     "pitch": -15.4,
@@ -54,7 +54,7 @@ pannellum.viewer('panorama', {
             "pitch": -8.7,
             "yaw": -0.1,
             "type": "equirectangular",
-            "panorama": "../static/images/360-River-Three.jpg",
+            "panorama": "../images/360-River-Three.jpg",
             "hotSpots": [
                 {
                     "pitch": -6.3,
@@ -83,7 +83,7 @@ pannellum.viewer('panorama', {
             "pitch": -8.7,
             "yaw": -0.1,
             "type": "equirectangular",
-            "panorama": "../static/images/360-Field.jpg",
+            "panorama": "../images/360-Field.jpg",
             "hotSpots": [
                 {
                     "pitch": -8.7,

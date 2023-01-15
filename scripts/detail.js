@@ -449,7 +449,7 @@ const subtitleContainerTwo = document.querySelector("#sub-container-two");
 const subtitleContainerThree = document.querySelector("#sub-container-three");
 
 function fetchJson(infoID) {
-    fetch("../static/json/info.json")
+    fetch("../json/info.json")
         .then(res => res.json())
         .then(obj => obj.informationPoints.filter(item => item.id == infoID))
         .then(arr => {
@@ -520,8 +520,8 @@ setTimeout(() => {
             sceneNumber = 2;
             sceneCount.innerHTML = sceneNumber;
             sceneLocationName.innerHTML = "De Rijn, onderdeel van de Limes";
-            sceneLocationImage.src = "../static/images/de-rijn-nederland.png";
-            audioSource.src = "static/audio/scripttweedescene-alt.mp3";
+            sceneLocationImage.src = "../images/de-rijn-nederland.png";
+            audioSource.src = "audio/scripttweedescene-alt.mp3";
             audio.load();
             infoImage.src = "";
             infoHeading.innerHTML = "";
@@ -579,8 +579,8 @@ setTimeout(() => {
                         sceneNumber = 3;
                         sceneCount.innerHTML = sceneNumber;
                         sceneLocationName.innerHTML = "Ruïne van castellum langs de Limes";
-                        sceneLocationImage.src = "../static/images/het-castellum-nederland.png";
-                        audioSource.src = "static/audio/scriptderdescene-alt.mp3";
+                        sceneLocationImage.src = "../images/het-castellum-nederland.png";
+                        audioSource.src = "audio/scriptderdescene-alt.mp3";
                         audio.load();
                         infoImage.src = "";
                         infoHeading.innerHTML = "";

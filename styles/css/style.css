@@ -165,7 +165,7 @@ body {
 }
 
 .home-main .home-slider .slick-prev {
-  background-image: url(../../static/images/left-arrow.svg);
+  background-image: url(../../images/left-arrow.svg);
   z-index: 10;
   transition: 0.2s all;
 }
@@ -175,7 +175,7 @@ body {
 }
 
 .home-main .home-slider .slick-next {
-  background-image: url(../../static/images/right-arrow.svg);
+  background-image: url(../../images/right-arrow.svg);
   right: 75px;
   transition: 0.2s all;
 }
@@ -969,7 +969,7 @@ body {
 .detail-main #panorama .info-hotspot {
   height: 75px;
   width: 75px;
-  background-image: url(../../static/images/info-icon.png);
+  background-image: url(../../images/info-icon.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -977,7 +977,7 @@ body {
 .detail-main #panorama .scene-hotspot {
   height: 75px;
   width: 75px;
-  background-image: url(../../static/images/scene-icon.png);
+  background-image: url(../../images/scene-icon.png);
   background-repeat: no-repeat;
   background-position: center;
 }
