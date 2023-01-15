@@ -449,7 +449,7 @@ const subtitleContainerTwo = document.querySelector("#sub-container-two");
 const subtitleContainerThree = document.querySelector("#sub-container-three");
 
 function fetchJson(infoID) {
-    fetch("../json/info.json")
+    fetch("https://raw.githubusercontent.com/mbergevoet/afstuderen-static/master/json/info.json")
         .then(res => res.json())
         .then(obj => obj.informationPoints.filter(item => item.id == infoID))
         .then(arr => {
