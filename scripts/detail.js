@@ -520,7 +520,7 @@ setTimeout(() => {
             sceneNumber = 2;
             sceneCount.innerHTML = sceneNumber;
             sceneLocationName.innerHTML = "De Rijn, onderdeel van de Limes";
-            sceneLocationImage.src = "../images/de-rijn-nederland.png";
+            sceneLocationImage.src = "images/de-rijn-nederland.png";
             audioSource.src = "audio/scripttweedescene-alt.mp3";
             audio.load();
             infoImage.src = "";
@@ -579,7 +579,7 @@ setTimeout(() => {
                         sceneNumber = 3;
                         sceneCount.innerHTML = sceneNumber;
                         sceneLocationName.innerHTML = "Ruïne van castellum langs de Limes";
-                        sceneLocationImage.src = "../images/het-castellum-nederland.png";
+                        sceneLocationImage.src = "images/het-castellum-nederland.png";
                         audioSource.src = "audio/scriptderdescene-alt.mp3";
                         audio.load();
                         infoImage.src = "";
