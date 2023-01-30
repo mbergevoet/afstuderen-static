@@ -589,7 +589,7 @@ setTimeout(() => {
                         subtitleContainerTwo.classList.add("hidden");
                         hamburgerMenu.classList.remove('open');
                         hamburgerBackground.classList.remove('visible');
-                        hamburgerOpen.classList.add("slide-out-of-view");
+                        hamburgerOpen.classList.remove("slide-out-of-view");
                         sceneLocationImage.style.width = 250 + "px";
 
                         subSceneTwo.forEach(i => {
